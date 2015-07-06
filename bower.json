@@ -10,6 +10,11 @@
   "dependencies": {
     "polymer": "Polymer/polymer"
   },
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
   "devDependencies": {
     "web-component-tester": "Polymer/web-component-tester"
   }
