@@ -1,21 +1,28 @@
 {
   "name": "uvalib-helper-libs",
-  "version": "0.0.0",
+  "version": "1.0.7",
+  "authors": [
+    "Anonymous <anonymous@example.com>"
+  ],
+  "description": "An element providing a solution to no problem in particular.",
   "keywords": [
-    "seed",
+    "web-component",
     "polymer",
-    "web-components"
+    "seed"
   ],
   "main": "uvalib-helper-libs.html",
-  "dependencies": {
-    "polymer": "Polymer/polymer"
-  },
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/<USERNAME>/seed-element/",
   "ignore": [
     "/.*",
-    "/test/",
-    "/demo/"
+    "/test/"
   ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0",
+    "lodash": "^4.11.2"
+  },
   "devDependencies": {
-    "web-component-tester": "Polymer/web-component-tester"
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "^4.0.0"
   }
 }
