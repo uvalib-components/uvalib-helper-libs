@@ -19,13 +19,13 @@
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#^1.2.0",
-    "lodash": "^4.11.2"
+    "lodash": "^4.13.1"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
     "web-component-tester": "^4.0.0"
   },
   "resolutions": {
-    "lodash": "^4.11.2"
+    "lodash": "^4.13.1"
   }
 }
