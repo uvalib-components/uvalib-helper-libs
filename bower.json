@@ -27,6 +27,7 @@
     "web-component-tester": "^4.3.3"
   },
   "resolutions": {
-    "lodash": "^4.15.0"
+    "lodash": "^4.15.0",
+    "moment-timezone": "^0.5.7"
   }
 }
