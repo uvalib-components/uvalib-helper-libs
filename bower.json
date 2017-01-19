@@ -21,7 +21,7 @@
     "polymer": "Polymer/polymer#^1.7.1",
     "lodash": "^4.17.4",
     "moment-timezone": "^0.5.11",
-    "uvalib-theme": "uvalib-components/uvalib-theme#master",
+    "uvalib-theme": "uvalib-components/uvalib-theme#master"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.1.7",
