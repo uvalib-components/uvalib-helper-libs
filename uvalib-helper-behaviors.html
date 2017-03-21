@@ -26,6 +26,9 @@
         else if (list.length=1) return list[0];
         else return null;
       else return null;
+    },
+    _truncate: function(s, l){
+      return _.truncate(s, {'length': l, 'separator': ' '});
     }
   };
 
