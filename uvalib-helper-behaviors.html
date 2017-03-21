@@ -27,8 +27,16 @@
         else return null;
       else return null;
     },
+    _stripHTML: function(html){
+      var div = document.createElement("div");
+      div.innerHTML = html;
+      return div.textContent || div.innerText || "";    
+    },
     _truncate: function(s, l){
       return _.truncate(s, {'length': l, 'separator': ' '});
+    },
+    _stripAndTruncate: function(s, l){
+      return this._truncate(this._stripHTML(s), l);
     },
     _decodeHtml: function(html) {
       var txt = document.createElement("textarea");
