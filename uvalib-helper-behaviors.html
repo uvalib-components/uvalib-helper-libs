@@ -29,6 +29,11 @@
     },
     _truncate: function(s, l){
       return _.truncate(s, {'length': l, 'separator': ' '});
+    },
+    _decodeHtml: function(html) {
+      var txt = document.createElement("textarea");
+      txt.innerHTML = html;
+      return txt.value;
     }
   };
 
