@@ -22,6 +22,6 @@
   },
   "resolutions": {
     "lodash": "^4.17.4",
-    "app-storage": "^0.10.0"
+    "app-storage": "1 - 2"
   }
 }
