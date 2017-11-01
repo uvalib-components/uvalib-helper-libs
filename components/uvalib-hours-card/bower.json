@@ -1,0 +1,12 @@
+{
+  "name": "uvalib-hours-card",
+  "description": "Library hours information displayed in a card section",
+  "main": "uvalib-hours-card.html",
+  "dependencies": {
+    "uvalib-elements": "uvalib-components/uvalib-elements#master"
+  },
+  "resolutions": {
+    "lodash": "^4.17.4",
+    "app-storage": "^0.10.0"
+  }
+}
